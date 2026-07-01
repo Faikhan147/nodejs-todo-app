@@ -8,12 +8,6 @@ pipeline {
   
     stages {
 
-        stage('GitHub clone') {
-    
-            steps {
-                git 'https://github.com/Faikhan147/nodejs-todo-app.git'
-            }
-        }
 
         stage('npm install dependencies') {
     
