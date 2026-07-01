@@ -5,11 +5,7 @@ pipeline {
     environment {
         IMAGE_NAME = "faisalkhan35/nodejs-app:latest"
     }
- 
-    tools {
-        nodejs 'NodeJS'
-    }
-
+  
     stages {
 
         stage('GitHub clone') {
